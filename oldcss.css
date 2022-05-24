@@ -1,0 +1,145 @@
+html{
+    font-family: 'Roboto', sans-serif;
+ }
+ 
+ body{
+    
+    padding: 0px;
+     margin: 0px;
+ }
+ #home{
+    position: absolute;
+    left: 370px;
+    top: 19px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 160px;
+ }
+ #destination{
+    position: absolute;
+    left: 550px;
+    top: 19px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 160px;
+ }
+ 
+ #about{
+    position: absolute;
+    left: 800px;
+    top: 19px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 160px;
+ }
+ #tour{
+ position: absolute;
+    left: 980px;
+    top: 19px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 160px;
+ }
+ 
+ #contact{
+    position: absolute;
+    left: 1160px;
+    top: 19px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 160px;
+ }
+ #sign{
+    position: absolute;
+    left: 1360px;
+    top: 19px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 160px;
+    color:#FFC800;
+ }
+ ul {
+    list-style: none;
+    
+ }
+ 
+ li a{
+    color:rgb(255,255,255);
+    text-decoration: none;
+ }
+ button{
+    font-size: 20px;
+    position: absolute;
+    width: 250px;
+    height: 70px;
+    left: 130px;
+    top: 600px;
+    background: #FFC800;
+    border-radius: 8px;
+ }
+ h1{
+    position: absolute;
+    font-family:'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    left: 130px;
+    top: 270px; 
+    color: white;
+ }
+ #description{
+    position: absolute;
+    font-size: 52px;
+    font-weight: 300;
+    left: 130px;
+    top: 400px; 
+ } 
+ p{
+ color: white;
+ }
+ h2{
+    position: absolute;
+    font-size: 25px;
+    font-weight: 200;
+    left: 70px;
+    top: 800px; 
+    color: white;
+ }
+ #trip1{
+    position: absolute;
+    width: 100;
+    top: 800px; 
+    left: 500px;
+    border-radius: 10px;
+ }
+ #trip2{
+    position: absolute;
+    width: 250px;
+    top: 800px; 
+    left: 900px;
+    border-radius: 10px;
+ }
+ #trip3{
+    position: absolute;
+    width: 291px;
+    top: 800px; 
+    left: 1250px;
+ }
+ #name1{
+    position: absolute;
+    font-size: 25px;
+    font-weight: 200;
+    top: 936px; 
+    left: 585px;
+ }
+ #name2{
+    position: absolute;
+    font-size: 25px;
+    top: 936px; 
+    left:960px;
+ }
+ #name3{
+    position: absolute;
+    font-size: 25px;
+    top: 936px; 
+    left: 1312px;
+ 

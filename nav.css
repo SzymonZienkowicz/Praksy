@@ -1,0 +1,25 @@
+nav{
+max-width: 1200px;
+margin: auto;
+padding-top: 40px;
+padding-bottom: 80px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul li a{
+    font-size: 20px;
+    padding: 20px 0 20px;
+    text-decoration:none;
+}
+ul li a span{
+    color: #FFC800;
+}
+#sign{
+color:#FFC800;
+}
+#TravelBD{
+font-weight: 700;
+}
