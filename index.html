@@ -16,6 +16,9 @@
 	<link rel="stylesheet" href="nav.css">
 	<link rel="stylesheet" href="banner.css">
 	<link rel="stylesheet" href="about-us.css">
+	<link rel="stylesheet" href="our-services.css">
+	<link rel="stylesheet" href="trip-form.css">
+	<link rel="stylesheet" href="destination.css">
 </head>
 
 <body>
@@ -39,16 +42,16 @@
 			</section>
 			<section class="trip">
 				<h2>The Most Famous Tour Spots In BD</h2>
-				<ul>
-					<li>
+				<ul class="banner-photo">
+					<li class="banner-photo-l">
 						<img id="trip1" class="trip-img" src="1.jpg" alt="1trip.jpg">
 						<p id="name1">Saint Martin</p>
 					</li>
-					<li>
+					<li class="banner-photo-l">
 						<img id="trip2" class="trip-img" src="2.jpg" alt="2trip">
 						<p id="name2">Cox's Bazar</p>
 					</li>
-					<li>
+					<li class="banner-photo-l">
 						<img id="trip3" class="trip-img" src="3.jpg" alt="3trip">
 						<p id="name3">Ratargul Forest</p>
 					</li>
@@ -72,10 +75,90 @@
 			</div>
 			<img class="about-us__picture" src="4.jpg" alt="picture">
 		</section>
-		<section>
-
+		<section class="our-services">
+			<div>
+				<h2 class="our-services__main-text">Our Services</h2>
+				<p class="our-services__sub-heading">We help our clients throughout the trip</p>
+				<section class="our-section__img">
+					<ul class="photo-galery">
+						<li>
+							<h2 class="destination">DESTINATIONS</h2>
+							<p id="name4">Choose any destination
+								you like, we have several
+								country ratings</p>
+						</li>
+						<li>
+							<h2 class="tours">TOURS</h2>
+							<p id="name5">A large number of tours
+								to different countries for
+								one or a family</p>
+						</li>
+						<li>
+							<h2 class="luxury-hotel">LUXURY HOTEL</h2>
+							<p id="name6">Lorem ipsum dolor sit amet,
+								consectetur adipiscing elit.</p>
+						</li>
+						<li>
+							<h2 class="assistance">ASSISTANCE</h2>
+							<p id="name7">We are ready to solve all
+								your questions and help
+								to deal with problems</p>
+						</li>
+					</ul>
+				</section>
+			</div>
+		</section>
+		<section class="trip-form__wrapper">
+			<h2 class="trip-form__main-text"> Where you want go?</h2>
+			<form class="trip-form__form" action="">
+				<input class="trip-form__input trip-form__destination-input" placeholder="Where you go?" type="text">
+				<select class="trip-form__input trip-form__date-input">
+					<option>Date</option>
+					<option>2</option>
+					<option>3</option>
+				</select>
+				<select class="trip-form__input trip-form__type-input">
+					<option>Travel Type</option>
+					<option>2</option>
+					<option>3</option>
+				</select>
+				<button class="search__button">Search</button>
+			</form>
+		</section>
+		<section class="Our_Destination">
+			<h2 class="our_destination__main-text">Our destination</h2>
+			<p class="our_destination__sub-heading">choose your next destination</p>
+			<section class="our_destination__galery">
+				<ul class="galery">
+					<li>
+						<img id="trip5" class="trip-img" src="5.jpg" alt="5trip.jpg">
+						<p id="name5">Saint Martin</p>
+					</li>
+					<li>
+						<img id="trip6" class="trip-img" src="6.jpg" alt="6trip">
+						<p id="name6">Saint Martin</p>
+					</li>
+					<li>
+						<img id="trip7" class="trip-img" src="7.jpg" alt="7trip">
+						<p id="name7">Saint Martin</p>
+					</li>
+					<li>
+						<img id="trip8" class="trip-img" src="8.jpg" alt="8trip">
+						<p id="name8">Saint Martin</p>
+					</li>
+					<li>
+						<img id="trip9" class="trip-img" src="9.jpg" alt="9trip">
+						<p id="name9">Saint Martin</p>
+					</li>
+					<li>
+						<img id="trip10" class="trip-img" src="10.jpg" alt="10trip">
+						<p id="name10">Saint Martin</p>
+					</li>
+				</ul>
+			</section>
 		</section>
 	</main>
+
 </body>
 
 </html>

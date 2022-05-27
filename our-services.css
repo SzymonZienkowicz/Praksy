@@ -1,0 +1,39 @@
+.our-services {
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.our-services__main-text {
+    font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 80px;
+}
+
+.our-services__sub-heading {
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.our-section__img {
+    width: 1200px;
+    height: 500px;
+    background-size: cover;
+}
+
+.our-section__img h2 {
+    font-family: 'Josefin Sans';
+    text-align: center;
+    padding-top: 80px;
+    font-weight: 600;
+    font-size: 30px;
+    color: black;
+}
+
+.our-section__img p {
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 26px;
+    color: rgba(0, 0, 0, 0.5);
+}
